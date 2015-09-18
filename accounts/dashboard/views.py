@@ -108,7 +108,7 @@ class AccountCreateView(generic.CreateView):
                 self.request,
                 _("New account created with code '%s'") % account.code)
         return http.HttpResponseRedirect(
-            reverse('accounts-detail', kwargs={'pk': account.id}))
+            reverse('dashboard:accounts-detail', kwargs={'pk': account.id}))
 
 
 class AccountUpdateView(generic.UpdateView):
@@ -126,7 +126,7 @@ class AccountUpdateView(generic.UpdateView):
         account = form.save()
         messages.success(self.request, _("Account saved"))
         return http.HttpResponseRedirect(
-            reverse('accounts-detail', kwargs={'pk': account.id}))
+            reverse('dashboard:accounts-detail', kwargs={'pk': account.id}))
 
 
 class AccountFreezeView(generic.UpdateView):
@@ -136,7 +136,7 @@ class AccountFreezeView(generic.UpdateView):
 
     def get_success_url(self):
         messages.success(self.request, _("Account frozen"))
-        return reverse('accounts-list')
+        return reverse('dashboard:accounts-list')
 
 
 class AccountThawView(generic.UpdateView):
@@ -146,7 +146,7 @@ class AccountThawView(generic.UpdateView):
 
     def get_success_url(self):
         messages.success(self.request, _("Account thawed"))
-        return reverse('accounts-list')
+        return reverse('dashboard:accounts-list')
 
 
 class AccountTopUpView(generic.UpdateView):
@@ -167,7 +167,7 @@ class AccountTopUpView(generic.UpdateView):
         else:
             messages.success(
                 self.request, _("%s added to account") % currency(amount))
-        return http.HttpResponseRedirect(reverse('accounts-detail',
+        return http.HttpResponseRedirect(reverse('dashboard:accounts-detail',
                                                  kwargs={'pk': account.id}))
 
 
@@ -190,7 +190,7 @@ class AccountWithdrawView(generic.UpdateView):
             messages.success(
                 self.request,
                 _("%s withdrawn from account") % currency(amount))
-        return http.HttpResponseRedirect(reverse('accounts-detail',
+        return http.HttpResponseRedirect(reverse('dashboard:accounts-detail',
                                                  kwargs={'pk': account.id}))
 
 
