@@ -1,15 +1,17 @@
 #!/usr/bin/env python
+import os
 from setuptools import setup, find_packages
-
 from accounts import VERSION
 
+with open(os.path.join(os.path.dirname(__file__), 'README.md'), 'r') as fh:
+    readme = fh.read()
 
 setup(name='django-oscar-accounts',
       version=VERSION,
       author="David Winterbottom",
       author_email="david.winterbottom@tangentlabs.co.uk",
       description="Managed accounts for django-oscar",
-      long_description=open('README.md').read(),
+      long_description=readme,
       license=open('LICENSE').read(),
       packages=find_packages(exclude=['sandbox*', 'tests*']),
       include_package_data=True,
