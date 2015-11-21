@@ -1,0 +1,2 @@
+django-oscar>=1.0
+python-dateutil>=2.4
