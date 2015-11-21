@@ -1,28 +1,13 @@
-#!/usr/bin/env python
-import os
-from setuptools import setup, find_packages
-from accounts import VERSION
+import setuptools
 
-with open(os.path.join(os.path.dirname(__file__), 'README.md'), 'r') as fh:
-    readme = fh.read()
+# In python < 2.7.4, a lazy loading of package `pbr` will break
+# setuptools if some other modules registered functions in `atexit`.
+# solution from: http://bugs.python.org/issue15881#msg170215
+try:
+    import multiprocessing  # noqa
+except ImportError:
+    pass
 
-setup(name='django-oscar-accounts',
-      version=VERSION,
-      author="David Winterbottom",
-      author_email="david.winterbottom@tangentlabs.co.uk",
-      description="Managed accounts for django-oscar",
-      long_description=readme,
-      license=open('LICENSE').read(),
-      packages=find_packages(exclude=['sandbox*', 'tests*']),
-      include_package_data=True,
-      # See http://pypi.python.org/pypi?%3Aaction=list_classifiers
-      classifiers=[
-          'Development Status :: 4 - Beta',
-          'Environment :: Web Environment',
-          'Framework :: Django',
-          'Intended Audience :: Developers',
-          'License :: OSI Approved :: BSD License',
-          'Operating System :: Unix',
-          'Programming Language :: Python'],
-      install_requires=['django-oscar>=1.0',
-                        'python-dateutil>=2.4,<2.5'])
+setuptools.setup(
+    setup_requires=['pbr'],
+    pbr=True)
