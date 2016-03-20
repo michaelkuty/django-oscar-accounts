@@ -80,20 +80,23 @@ def redeem(order_number, user, allocations):
     """
     # First, we need to check if the allocations are still valid
     transfers = _get_and_verify_transfers(order_number, user, allocations)
+    transactions = []
     # All transfers verified, now redeem atomicaly
     redeem_transaction = transaction.savepoint()
     try:
         for account, destination, amount in transfers:
-            facade.transfer(
+            transactions.append(facade.transfer(
                 account, destination, amount, user=user,
                 merchant_reference=order_number,
-                description="Redeemed to pay for order %s" % order_number)
+                description="Redeemed to pay for order %s" % order_number))
         transaction.savepoint_commit(redeem_transaction)
     except Exception, exception:
         logger.error("Rollbacking transaction because exception: '%s'",
                      unicode(exception))
         transaction.savepoint_rollback(redeem_transaction)
         raise exception
+
+    return transactions
 
 
 def create_giftcard(order_number, user, amount):
