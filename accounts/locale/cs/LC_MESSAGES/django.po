@@ -1,0 +1,652 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-05-15 13:33+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: abstract_models.py:64
+msgid "This text is shown to customers during checkout"
+msgstr ""
+
+#: abstract_models.py:457
+msgid "IP address"
+msgstr ""
+
+#: abstract_models.py:475
+msgid "IP address record"
+msgstr ""
+
+#: abstract_models.py:476
+msgid "IP address records"
+msgstr ""
+
+#: checkout/forms.py:13 forms.py:10
+msgid "Account code"
+msgstr "Kód účtu"
+
+#: checkout/forms.py:27 forms.py:19
+msgid "No account found with this code"
+msgstr ""
+
+#: checkout/forms.py:30
+msgid "This account is no longer active"
+msgstr ""
+
+#: checkout/forms.py:33
+msgid "This account is no longer open"
+msgstr ""
+
+#: checkout/forms.py:36
+msgid "This account is empty"
+msgstr ""
+
+#: checkout/forms.py:39
+msgid "You can not authorised to use this account"
+msgstr ""
+
+#: checkout/forms.py:44
+msgid "Allocation"
+msgstr "Alokace"
+
+#: checkout/forms.py:77
+#, python-format
+msgid "The maximum allocation is %s"
+msgstr "Maximální alokace je %s"
+
+#: checkout/gateway.py:40
+#, python-format
+msgid "No active account found with code %s"
+msgstr ""
+
+#: config.py:8 templates/accounts/balance_check.html:16
+#: templates/accounts/dashboard/account_detail.html:17
+#: templates/accounts/dashboard/account_form.html:7
+#: templates/accounts/dashboard/account_form.html:17
+#: templates/accounts/dashboard/account_freeze.html:17
+#: templates/accounts/dashboard/account_list.html:17
+#: templates/accounts/dashboard/account_thaw.html:17
+#: templates/accounts/dashboard/account_top_up.html:17
+#: templates/accounts/dashboard/account_withdraw.html:16
+#: templates/accounts/dashboard/reports/deferred_income.html:7
+#: templates/accounts/dashboard/reports/deferred_income.html:17
+#: templates/accounts/dashboard/reports/profit_loss.html:7
+#: templates/accounts/dashboard/reports/profit_loss.html:17
+#: templates/accounts/dashboard/transfer_detail.html:17
+#: templates/accounts/dashboard/transfer_list.html:16
+msgid "Accounts"
+msgstr "Účty"
+
+#: dashboard/forms.py:21
+msgid "Open"
+msgstr "Otevřený"
+
+#: dashboard/forms.py:22
+msgid "Frozen"
+msgstr "Zmražený"
+
+#: dashboard/forms.py:23
+msgid "Closed"
+msgstr "Zavřený"
+
+#: dashboard/forms.py:34 templates/accounts/dashboard/account_list.html:52
+#: templates/accounts/dashboard/partials/account_detail.html:8
+msgid "Name"
+msgstr "Jméno"
+
+#: dashboard/forms.py:164
+#, python-format
+msgid "The maximum permitted top-up amount is %s"
+msgstr ""
+
+#: dashboard/forms.py:170 dashboard/forms.py:197
+msgid "Account is closed"
+msgstr ""
+
+#: dashboard/forms.py:172 dashboard/forms.py:199
+msgid "Account is frozen"
+msgstr ""
+
+#: dashboard/forms.py:191
+#, python-format
+msgid "The account has only %s"
+msgstr ""
+
+#: dashboard/forms.py:208
+msgid "From"
+msgstr ""
+
+#: dashboard/forms.py:209
+msgid "To"
+msgstr ""
+
+#: dashboard/views.py:30
+#, python-format
+msgid "All %s"
+msgstr ""
+
+#: dashboard/views.py:56
+#, python-format
+msgid "%(status)s %(unit)ss %(code_filter)s %(name_filter)s"
+msgstr ""
+
+#: dashboard/views.py:66
+#, python-format
+msgid " with name matching '%s'"
+msgstr ""
+
+#: dashboard/views.py:70
+#, python-format
+msgid " with code '%s'"
+msgstr ""
+
+#: dashboard/views.py:88
+#, python-format
+msgid "Create a new %s"
+msgstr "Vytvořit"
+
+#: dashboard/views.py:100
+msgid "Creation of account"
+msgstr ""
+
+#: dashboard/views.py:104
+#, python-format
+msgid "Account created but unable to load funds onto new account: %s"
+msgstr ""
+
+#: dashboard/views.py:109
+#, python-format
+msgid "New account created with code '%s'"
+msgstr ""
+
+#: dashboard/views.py:122
+#, python-format
+msgid "Update '%s' account"
+msgstr ""
+
+#: dashboard/views.py:127
+msgid "Account saved"
+msgstr ""
+
+#: dashboard/views.py:138
+msgid "Account frozen"
+msgstr ""
+
+#: dashboard/views.py:148
+msgid "Account thawed"
+msgstr ""
+
+#: dashboard/views.py:163 templates/accounts/dashboard/account_top_up.html:7
+msgid "Top-up account"
+msgstr ""
+
+#: dashboard/views.py:166
+#, python-format
+msgid "Unable to top-up account: %s"
+msgstr ""
+
+#: dashboard/views.py:169
+#, python-format
+msgid "%s added to account"
+msgstr ""
+
+#: dashboard/views.py:185 templates/accounts/dashboard/account_withdraw.html:6
+msgid "Return funds to source account"
+msgstr ""
+
+#: dashboard/views.py:188
+#, python-format
+msgid "Unable to withdraw funds from account: %s"
+msgstr ""
+
+#: dashboard/views.py:192
+#, python-format
+msgid "%s withdrawn from account"
+msgstr ""
+
+#: dashboard/views.py:221
+msgid "All transfers"
+msgstr ""
+
+#: dashboard/views.py:245
+#, python-format
+msgid "Transfers %(reference)s %(date)s"
+msgstr ""
+
+#: dashboard/views.py:253
+#, python-format
+msgid " with reference '%s'"
+msgstr ""
+
+#: dashboard/views.py:260
+#, python-format
+msgid " created between %(start_date)s and %(end_date)s"
+msgstr ""
+
+#: dashboard/views.py:265
+#, python-format
+msgid " created since %s"
+msgstr ""
+
+#: dashboard/views.py:269
+#, python-format
+msgid " created before %s"
+msgstr ""
+
+#: templates/accounts/balance_check.html:7
+msgid "Check my balance"
+msgstr ""
+
+#: templates/accounts/balance_check.html:13
+msgid "Home"
+msgstr ""
+
+#: templates/accounts/balance_check.html:20
+msgid "Check balance of giftcard"
+msgstr ""
+
+#: templates/accounts/balance_check.html:25
+msgid "Your IP address is currently blocked.  Please try again later."
+msgstr ""
+
+#: templates/accounts/balance_check.html:30
+msgid "Fetch account details"
+msgstr ""
+
+#: templates/accounts/balance_check.html:38
+#: templates/accounts/dashboard/account_list.html:53
+#: templates/accounts/dashboard/partials/account_detail.html:20
+msgid "Code"
+msgstr ""
+
+#: templates/accounts/balance_check.html:42
+#: templates/accounts/dashboard/account_list.html:57
+#: templates/accounts/dashboard/partials/account_detail.html:28
+msgid "Balance"
+msgstr ""
+
+#: templates/accounts/balance_check.html:46
+#: templates/accounts/dashboard/account_list.html:54
+#: templates/accounts/dashboard/partials/account_detail.html:16
+msgid "Status"
+msgstr ""
+
+#: templates/accounts/balance_check.html:51
+#: templates/accounts/dashboard/account_list.html:55
+#: templates/accounts/dashboard/partials/account_detail.html:43
+msgid "Start date"
+msgstr ""
+
+#: templates/accounts/balance_check.html:57
+#: templates/accounts/dashboard/account_list.html:56
+#: templates/accounts/dashboard/partials/account_detail.html:49
+msgid "End date"
+msgstr ""
+
+#: templates/accounts/dashboard/account_detail.html:7
+msgid "Account"
+msgstr "Účet"
+
+#: templates/accounts/dashboard/account_detail.html:13
+#: templates/accounts/dashboard/account_form.html:13
+#: templates/accounts/dashboard/account_freeze.html:13
+#: templates/accounts/dashboard/account_list.html:13
+#: templates/accounts/dashboard/account_thaw.html:13
+#: templates/accounts/dashboard/account_top_up.html:13
+#: templates/accounts/dashboard/account_withdraw.html:12
+#: templates/accounts/dashboard/reports/deferred_income.html:13
+#: templates/accounts/dashboard/reports/profit_loss.html:13
+#: templates/accounts/dashboard/transfer_detail.html:13
+#: templates/accounts/dashboard/transfer_list.html:13
+msgid "Dashboard"
+msgstr ""
+
+#: templates/accounts/dashboard/account_detail.html:34
+#: templates/accounts/dashboard/account_list.html:75
+#: templates/accounts/dashboard/account_list.html:77
+msgid "Edit"
+msgstr ""
+
+#: templates/accounts/dashboard/account_detail.html:35
+#: templates/accounts/dashboard/account_list.html:81
+#: templates/accounts/dashboard/account_list.html:89
+#: templates/accounts/dashboard/account_top_up.html:41
+msgid "Top-up"
+msgstr ""
+
+#: templates/accounts/dashboard/account_detail.html:36
+#: templates/accounts/dashboard/account_list.html:82
+#: templates/accounts/dashboard/account_withdraw.html:23
+#: templates/accounts/dashboard/account_withdraw.html:44
+msgid "Withdraw"
+msgstr ""
+
+#: templates/accounts/dashboard/account_detail.html:38
+#: templates/accounts/dashboard/account_freeze.html:24
+#: templates/accounts/dashboard/account_freeze.html:36
+#: templates/accounts/dashboard/account_list.html:84
+msgid "Freeze"
+msgstr ""
+
+#: templates/accounts/dashboard/account_detail.html:40
+#: templates/accounts/dashboard/account_list.html:86
+#: templates/accounts/dashboard/account_thaw.html:31
+msgid "Thaw"
+msgstr ""
+
+#: templates/accounts/dashboard/account_detail.html:44
+#: templates/accounts/dashboard/account_list.html:79
+msgid "Transactions"
+msgstr ""
+
+#: templates/accounts/dashboard/account_detail.html:49
+#: templates/accounts/dashboard/transfer_detail.html:7
+msgid "Transfer"
+msgstr ""
+
+#: templates/accounts/dashboard/account_detail.html:50
+#: templates/accounts/dashboard/transfer_detail.html:47
+#: templates/accounts/dashboard/transfer_list.html:49
+msgid "Amount"
+msgstr "Částka"
+
+#: templates/accounts/dashboard/account_detail.html:51
+#: templates/accounts/dashboard/partials/account_detail.html:12
+#: templates/accounts/dashboard/transfer_detail.html:55
+#: templates/accounts/dashboard/transfer_list.html:51
+msgid "Description"
+msgstr ""
+
+#: templates/accounts/dashboard/account_detail.html:52
+#: templates/accounts/dashboard/transfer_detail.html:59
+#: templates/accounts/dashboard/transfer_list.html:52
+msgid "Authorised by"
+msgstr ""
+
+#: templates/accounts/dashboard/account_detail.html:53
+#: templates/accounts/dashboard/transfer_detail.html:63
+msgid "Date"
+msgstr "Datum"
+
+#: templates/accounts/dashboard/account_detail.html:70
+msgid "No transactions."
+msgstr "Žádné transkace."
+
+#: templates/accounts/dashboard/account_form.html:25
+msgid "Update"
+msgstr "Aktualizovat"
+
+#: templates/accounts/dashboard/account_form.html:27
+msgid "Create"
+msgstr "Vytvořit"
+
+#: templates/accounts/dashboard/account_form.html:38
+msgid "Edit this account"
+msgstr "Změnit tento účet"
+
+#: templates/accounts/dashboard/account_form.html:51
+msgid "Initial transaction"
+msgstr ""
+
+#: templates/accounts/dashboard/account_form.html:58
+msgid "Restrictions"
+msgstr ""
+
+#: templates/accounts/dashboard/account_form.html:59
+msgid "Restrict WHEN the account can be used"
+msgstr ""
+
+#: templates/accounts/dashboard/account_form.html:62
+msgid "Restrict WHO can use the account"
+msgstr ""
+
+#: templates/accounts/dashboard/account_form.html:65
+msgid "Restrict WHAT can be bought"
+msgstr ""
+
+#: templates/accounts/dashboard/account_form.html:70
+msgid "Save"
+msgstr "Uložit"
+
+#: templates/accounts/dashboard/account_form.html:71
+#: templates/accounts/dashboard/account_freeze.html:37
+#: templates/accounts/dashboard/account_list.html:41
+msgid "or"
+msgstr "nebo"
+
+#: templates/accounts/dashboard/account_form.html:72
+#: templates/accounts/dashboard/account_freeze.html:37
+#: templates/accounts/dashboard/account_top_up.html:42
+#: templates/accounts/dashboard/account_withdraw.html:45
+msgid "cancel"
+msgstr "zrušit"
+
+#: templates/accounts/dashboard/account_freeze.html:7
+#, python-format
+msgid "Freeze account %(id)s"
+msgstr ""
+
+#: templates/accounts/dashboard/account_freeze.html:28
+msgid "Freeze account?"
+msgstr ""
+
+#: templates/accounts/dashboard/account_list.html:26
+msgid "Create a new "
+msgstr "Vytvořit nový "
+
+#: templates/accounts/dashboard/account_list.html:35
+#: templates/accounts/dashboard/account_list.html:40
+#: templates/accounts/dashboard/transfer_list.html:29
+#: templates/accounts/dashboard/transfer_list.html:34
+msgid "Search"
+msgstr "Hledat"
+
+#: templates/accounts/dashboard/account_list.html:41
+#: templates/accounts/dashboard/transfer_list.html:35
+msgid "reset"
+msgstr ""
+
+#: templates/accounts/dashboard/account_list.html:58
+msgid "Num transactions"
+msgstr ""
+
+#: templates/accounts/dashboard/account_list.html:59
+#: templates/accounts/dashboard/transfer_list.html:53
+msgid "Date created"
+msgstr ""
+
+#: templates/accounts/dashboard/account_list.html:97
+msgid "No results found."
+msgstr ""
+
+#: templates/accounts/dashboard/account_thaw.html:7
+#: templates/accounts/dashboard/account_thaw.html:20
+msgid "Thaw account"
+msgstr ""
+
+#: templates/accounts/dashboard/account_thaw.html:24
+msgid "Thaw account?"
+msgstr ""
+
+#: templates/accounts/dashboard/account_top_up.html:24
+msgid "Top up"
+msgstr ""
+
+#: templates/accounts/dashboard/account_top_up.html:28
+msgid "Top up account?"
+msgstr ""
+
+#: templates/accounts/dashboard/account_top_up.html:36
+#: templates/accounts/dashboard/account_withdraw.html:39
+msgid "Transaction"
+msgstr ""
+
+#: templates/accounts/dashboard/account_top_up.html:45
+msgid "This account cannot be topped-up."
+msgstr ""
+
+#: templates/accounts/dashboard/account_withdraw.html:29
+msgid "Withdraw funds from account?"
+msgstr ""
+
+#: templates/accounts/dashboard/account_withdraw.html:48
+msgid "This account's funds cannot be withdrawn."
+msgstr ""
+
+#: templates/accounts/dashboard/partials/account_detail.html:24
+#: templates/accounts/dashboard/reports/deferred_income.html:38
+msgid "Account type"
+msgstr ""
+
+#: templates/accounts/dashboard/partials/account_detail.html:32
+msgid "Credit limit"
+msgstr ""
+
+#: templates/accounts/dashboard/partials/account_detail.html:35
+msgid "No limit"
+msgstr ""
+
+#: templates/accounts/dashboard/partials/account_detail.html:55
+msgid "Primary user"
+msgstr ""
+
+#: templates/accounts/dashboard/partials/account_detail.html:62
+msgid "Num secondary users"
+msgstr ""
+
+#: templates/accounts/dashboard/partials/account_detail.html:69
+msgid "Can be spent on products from range"
+msgstr ""
+
+#: templates/accounts/dashboard/reports/deferred_income.html:30
+#: templates/accounts/dashboard/reports/profit_loss.html:30
+msgid "Fetch report"
+msgstr ""
+
+#: templates/accounts/dashboard/reports/deferred_income.html:34
+msgid "Position at"
+msgstr ""
+
+#: templates/accounts/dashboard/reports/deferred_income.html:39
+msgid "Total balance"
+msgstr ""
+
+#: templates/accounts/dashboard/reports/deferred_income.html:40
+msgid "Num accounts"
+msgstr ""
+
+#: templates/accounts/dashboard/reports/deferred_income.html:41
+msgid "Expiring"
+msgstr ""
+
+#: templates/accounts/dashboard/reports/deferred_income.html:47
+msgid "&lt; 30 days"
+msgstr ""
+
+#: templates/accounts/dashboard/reports/deferred_income.html:48
+msgid "30 - 60 days"
+msgstr ""
+
+#: templates/accounts/dashboard/reports/deferred_income.html:49
+msgid "60 - 90 days"
+msgstr ""
+
+#: templates/accounts/dashboard/reports/deferred_income.html:50
+msgid "&gt; 90 days"
+msgstr ""
+
+#: templates/accounts/dashboard/reports/deferred_income.html:51
+msgid "No end date"
+msgstr ""
+
+#: templates/accounts/dashboard/reports/profit_loss.html:34
+msgid "Transactions between"
+msgstr ""
+
+#: templates/accounts/dashboard/reports/profit_loss.html:34
+msgid "and"
+msgstr ""
+
+#: templates/accounts/dashboard/reports/profit_loss.html:38
+msgid "INCREASES IN DEFERRED INCOME LIABILITY"
+msgstr ""
+
+#: templates/accounts/dashboard/reports/profit_loss.html:41
+msgid "Sales"
+msgstr ""
+
+#: templates/accounts/dashboard/reports/profit_loss.html:54
+msgid "Unpaid sources"
+msgstr ""
+
+#: templates/accounts/dashboard/reports/profit_loss.html:67
+msgid "Refunds"
+msgstr ""
+
+#: templates/accounts/dashboard/reports/profit_loss.html:80
+#: templates/accounts/dashboard/reports/profit_loss.html:117
+msgid "TOTAL"
+msgstr ""
+
+#: templates/accounts/dashboard/reports/profit_loss.html:88
+msgid "REDUCTIONS IN DEFERRED INCOME LIABILITY"
+msgstr ""
+
+#: templates/accounts/dashboard/reports/profit_loss.html:91
+msgid "Redemptions"
+msgstr ""
+
+#: templates/accounts/dashboard/reports/profit_loss.html:104
+msgid "Expired"
+msgstr ""
+
+#: templates/accounts/dashboard/reports/profit_loss.html:125
+msgid "DIFFERENCE IN POSITION"
+msgstr ""
+
+#: templates/accounts/dashboard/transfer_detail.html:21
+#: templates/accounts/dashboard/transfer_list.html:7
+#: templates/accounts/dashboard/transfer_list.html:19
+#: templates/accounts/dashboard/transfer_list.html:23
+msgid "Transfers"
+msgstr ""
+
+#: templates/accounts/dashboard/transfer_detail.html:35
+#: templates/accounts/dashboard/transfer_list.html:46
+msgid "Reference"
+msgstr ""
+
+#: templates/accounts/dashboard/transfer_detail.html:39
+#: templates/accounts/dashboard/transfer_list.html:47
+msgid "Source"
+msgstr ""
+
+#: templates/accounts/dashboard/transfer_detail.html:43
+#: templates/accounts/dashboard/transfer_list.html:48
+msgid "Destination"
+msgstr ""
+
+#: templates/accounts/dashboard/transfer_detail.html:51
+msgid "Merchant reference"
+msgstr ""
+
+#: templates/accounts/dashboard/transfer_list.html:50
+msgid "Order number"
+msgstr ""
+
+#: templates/accounts/dashboard/transfer_list.html:70
+msgid "No transfers found."
+msgstr ""
