@@ -156,7 +156,7 @@ msgstr ""
 #: dashboard/views.py:88
 #, python-format
 msgid "Create a new %s"
-msgstr "Vytvořit"
+msgstr "Vytvořit %s"
 
 #: dashboard/views.py:100
 msgid "Creation of account"
