@@ -3,6 +3,7 @@ import logging
 from oscar.core.loading import get_model
 
 from accounts import exceptions, core
+from django.utils.encoding import smart_text
 
 Account = get_model('accounts', 'Account')
 Transfer = get_model('accounts', 'Transfer')
@@ -58,7 +59,7 @@ def transfer(source, destination, amount,
     if user:
         msg += " authorised by user #%d (%s)" % (user.id, user.username,)
     if description:
-        msg += " '%s'" % description
+        msg += smart_text(" '%s'" % description)
     try:
         transfer = Transfer.objects.create(
             source, destination, amount, parent, user,
