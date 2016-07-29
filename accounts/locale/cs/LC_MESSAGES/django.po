@@ -8,31 +8,32 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-15 13:33+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-07-25 10:23+0200\n"
+"PO-Revision-Date: 2016-07-25 16:03+0058\n"
+"Last-Translator: kokot Lolek <mail@majklk.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Translated-Using: django-rosetta 0.7.11\n"
 
 #: abstract_models.py:64
 msgid "This text is shown to customers during checkout"
-msgstr ""
+msgstr "Tento text se ukazuje zákazníkům během kontroly"
 
 #: abstract_models.py:457
 msgid "IP address"
-msgstr ""
+msgstr "IP adresa"
 
 #: abstract_models.py:475
 msgid "IP address record"
-msgstr ""
+msgstr "Záznam IP adresy"
 
 #: abstract_models.py:476
 msgid "IP address records"
-msgstr ""
+msgstr "Záznamy IP adres"
 
 #: checkout/forms.py:13 forms.py:10
 msgid "Account code"
@@ -40,23 +41,23 @@ msgstr "Kód účtu"
 
 #: checkout/forms.py:27 forms.py:19
 msgid "No account found with this code"
-msgstr ""
+msgstr "Žádný účet s tímto kodem nenalezen"
 
 #: checkout/forms.py:30
 msgid "This account is no longer active"
-msgstr ""
+msgstr "Tento účet už není aktivní"
 
 #: checkout/forms.py:33
 msgid "This account is no longer open"
-msgstr ""
+msgstr "Tento účet už není otevřen"
 
 #: checkout/forms.py:36
 msgid "This account is empty"
-msgstr ""
+msgstr "Tento účet je prázdný"
 
 #: checkout/forms.py:39
 msgid "You can not authorised to use this account"
-msgstr ""
+msgstr "Vy nejste oprávněný k použití tohoto účtu"
 
 #: checkout/forms.py:44
 msgid "Allocation"
@@ -70,7 +71,7 @@ msgstr "Maximální alokace je %s"
 #: checkout/gateway.py:40
 #, python-format
 msgid "No active account found with code %s"
-msgstr ""
+msgstr "Žáadný aktivní účet nenalezen s tímto kodem  %s"
 
 #: config.py:8 templates/accounts/balance_check.html:16
 #: templates/accounts/dashboard/account_detail.html:17
@@ -110,191 +111,191 @@ msgstr "Jméno"
 #: dashboard/forms.py:164
 #, python-format
 msgid "The maximum permitted top-up amount is %s"
-msgstr ""
+msgstr "Maximální povolené dobití je  %s"
 
 #: dashboard/forms.py:170 dashboard/forms.py:197
 msgid "Account is closed"
-msgstr ""
+msgstr "Účet je zavřen"
 
 #: dashboard/forms.py:172 dashboard/forms.py:199
 msgid "Account is frozen"
-msgstr ""
+msgstr "Účet je zmražen"
 
 #: dashboard/forms.py:191
 #, python-format
 msgid "The account has only %s"
-msgstr ""
+msgstr "Tento účet má pouze  %s"
 
 #: dashboard/forms.py:208
 msgid "From"
-msgstr ""
+msgstr "od"
 
 #: dashboard/forms.py:209
 msgid "To"
-msgstr ""
+msgstr "do"
 
 #: dashboard/views.py:30
 #, python-format
 msgid "All %s"
-msgstr ""
+msgstr "všechno %s"
 
 #: dashboard/views.py:56
 #, python-format
 msgid "%(status)s %(unit)ss %(code_filter)s %(name_filter)s"
-msgstr ""
+msgstr "%(status)s %(unit)ss %(code_filter)s %(name_filter)s"
 
 #: dashboard/views.py:66
 #, python-format
 msgid " with name matching '%s'"
-msgstr ""
+msgstr "s odpovídajícím jménem '%s'"
 
 #: dashboard/views.py:70
 #, python-format
 msgid " with code '%s'"
-msgstr ""
+msgstr "s kodem '%s'"
 
 #: dashboard/views.py:88
 #, python-format
 msgid "Create a new %s"
-msgstr "Vytvořit %s"
+msgstr "Vytvořit nový  %s"
 
 #: dashboard/views.py:100
 msgid "Creation of account"
-msgstr ""
+msgstr "Vytváření účtu"
 
 #: dashboard/views.py:104
-#, python-format
+#, python-format, fuzzy
 msgid "Account created but unable to load funds onto new account: %s"
-msgstr ""
+msgstr "Účet vytvořen ale neschopný načíst hotovost na nový účet:  %s"
 
 #: dashboard/views.py:109
 #, python-format
 msgid "New account created with code '%s'"
-msgstr ""
+msgstr "Nový účet vytvořen s kodem  '%s'"
 
 #: dashboard/views.py:122
 #, python-format
 msgid "Update '%s' account"
-msgstr ""
+msgstr "Aktualizovat  '%s' účet"
 
 #: dashboard/views.py:127
 msgid "Account saved"
-msgstr ""
+msgstr "Účet uložen"
 
 #: dashboard/views.py:138
 msgid "Account frozen"
-msgstr ""
+msgstr "Účet zmražen"
 
 #: dashboard/views.py:148
 msgid "Account thawed"
-msgstr ""
+msgstr "Účet rozmražený"
 
 #: dashboard/views.py:163 templates/accounts/dashboard/account_top_up.html:7
 msgid "Top-up account"
-msgstr ""
+msgstr "Dobít účet"
 
 #: dashboard/views.py:166
 #, python-format
 msgid "Unable to top-up account: %s"
-msgstr ""
+msgstr "Neschopný dobít účet: %s"
 
 #: dashboard/views.py:169
 #, python-format
 msgid "%s added to account"
-msgstr ""
+msgstr "%s přidán do Účtu"
 
 #: dashboard/views.py:185 templates/accounts/dashboard/account_withdraw.html:6
 msgid "Return funds to source account"
-msgstr ""
+msgstr "Vrácení hotovosti na zdrojový účet"
 
 #: dashboard/views.py:188
 #, python-format
 msgid "Unable to withdraw funds from account: %s"
-msgstr ""
+msgstr "Neschopný vybrat hotovost z účtu: %s"
 
 #: dashboard/views.py:192
 #, python-format
 msgid "%s withdrawn from account"
-msgstr ""
+msgstr "%s vybráno z účtu "
 
 #: dashboard/views.py:221
 msgid "All transfers"
-msgstr ""
+msgstr "Všechny převody "
 
 #: dashboard/views.py:245
 #, python-format
 msgid "Transfers %(reference)s %(date)s"
-msgstr ""
+msgstr "Převody %(reference)s %(date)s"
 
 #: dashboard/views.py:253
 #, python-format
 msgid " with reference '%s'"
-msgstr ""
+msgstr "s odkazem na  '%s'"
 
 #: dashboard/views.py:260
 #, python-format
 msgid " created between %(start_date)s and %(end_date)s"
-msgstr ""
+msgstr "vytvořen mezi %(start_date)s a %(end_date)s"
 
 #: dashboard/views.py:265
 #, python-format
 msgid " created since %s"
-msgstr ""
+msgstr "vytvořeno od té doby  %s"
 
 #: dashboard/views.py:269
 #, python-format
 msgid " created before %s"
-msgstr ""
+msgstr "vytvořeno před %s"
 
 #: templates/accounts/balance_check.html:7
 msgid "Check my balance"
-msgstr ""
+msgstr "Zkontrolovat můj stav"
 
 #: templates/accounts/balance_check.html:13
 msgid "Home"
-msgstr ""
+msgstr "Domov"
 
 #: templates/accounts/balance_check.html:20
 msgid "Check balance of giftcard"
-msgstr ""
+msgstr "Zkontrolovat status Dárkovékarty"
 
 #: templates/accounts/balance_check.html:25
 msgid "Your IP address is currently blocked.  Please try again later."
-msgstr ""
+msgstr "Vaše IP adreesa je momentálně zablokovaná. Prosím zkuste to později."
 
 #: templates/accounts/balance_check.html:30
 msgid "Fetch account details"
-msgstr ""
+msgstr "Aktualizovat detaily účtu"
 
 #: templates/accounts/balance_check.html:38
 #: templates/accounts/dashboard/account_list.html:53
 #: templates/accounts/dashboard/partials/account_detail.html:20
 msgid "Code"
-msgstr ""
+msgstr "kod"
 
 #: templates/accounts/balance_check.html:42
 #: templates/accounts/dashboard/account_list.html:57
 #: templates/accounts/dashboard/partials/account_detail.html:28
 msgid "Balance"
-msgstr ""
+msgstr "Stav"
 
 #: templates/accounts/balance_check.html:46
 #: templates/accounts/dashboard/account_list.html:54
 #: templates/accounts/dashboard/partials/account_detail.html:16
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: templates/accounts/balance_check.html:51
 #: templates/accounts/dashboard/account_list.html:55
 #: templates/accounts/dashboard/partials/account_detail.html:43
 msgid "Start date"
-msgstr ""
+msgstr "Datum začátku"
 
 #: templates/accounts/balance_check.html:57
 #: templates/accounts/dashboard/account_list.html:56
 #: templates/accounts/dashboard/partials/account_detail.html:49
 msgid "End date"
-msgstr ""
+msgstr "Datum konce"
 
 #: templates/accounts/dashboard/account_detail.html:7
 msgid "Account"
@@ -312,50 +313,50 @@ msgstr "Účet"
 #: templates/accounts/dashboard/transfer_detail.html:13
 #: templates/accounts/dashboard/transfer_list.html:13
 msgid "Dashboard"
-msgstr ""
+msgstr "Dashboard"
 
 #: templates/accounts/dashboard/account_detail.html:34
 #: templates/accounts/dashboard/account_list.html:75
 #: templates/accounts/dashboard/account_list.html:77
 msgid "Edit"
-msgstr ""
+msgstr "Upravit"
 
 #: templates/accounts/dashboard/account_detail.html:35
 #: templates/accounts/dashboard/account_list.html:81
 #: templates/accounts/dashboard/account_list.html:89
 #: templates/accounts/dashboard/account_top_up.html:41
 msgid "Top-up"
-msgstr ""
+msgstr "Dobít"
 
 #: templates/accounts/dashboard/account_detail.html:36
 #: templates/accounts/dashboard/account_list.html:82
 #: templates/accounts/dashboard/account_withdraw.html:23
 #: templates/accounts/dashboard/account_withdraw.html:44
 msgid "Withdraw"
-msgstr ""
+msgstr "Vybrat"
 
 #: templates/accounts/dashboard/account_detail.html:38
 #: templates/accounts/dashboard/account_freeze.html:24
 #: templates/accounts/dashboard/account_freeze.html:36
 #: templates/accounts/dashboard/account_list.html:84
 msgid "Freeze"
-msgstr ""
+msgstr "Zmrazit"
 
 #: templates/accounts/dashboard/account_detail.html:40
 #: templates/accounts/dashboard/account_list.html:86
 #: templates/accounts/dashboard/account_thaw.html:31
 msgid "Thaw"
-msgstr ""
+msgstr "Rozmrazit"
 
 #: templates/accounts/dashboard/account_detail.html:44
 #: templates/accounts/dashboard/account_list.html:79
 msgid "Transactions"
-msgstr ""
+msgstr "Transakce"
 
 #: templates/accounts/dashboard/account_detail.html:49
 #: templates/accounts/dashboard/transfer_detail.html:7
 msgid "Transfer"
-msgstr ""
+msgstr "Převody"
 
 #: templates/accounts/dashboard/account_detail.html:50
 #: templates/accounts/dashboard/transfer_detail.html:47
@@ -368,13 +369,13 @@ msgstr "Částka"
 #: templates/accounts/dashboard/transfer_detail.html:55
 #: templates/accounts/dashboard/transfer_list.html:51
 msgid "Description"
-msgstr ""
+msgstr "Popisek"
 
 #: templates/accounts/dashboard/account_detail.html:52
 #: templates/accounts/dashboard/transfer_detail.html:59
 #: templates/accounts/dashboard/transfer_list.html:52
 msgid "Authorised by"
-msgstr ""
+msgstr "Autorizováno "
 
 #: templates/accounts/dashboard/account_detail.html:53
 #: templates/accounts/dashboard/transfer_detail.html:63
@@ -395,15 +396,15 @@ msgstr "Vytvořit"
 
 #: templates/accounts/dashboard/account_form.html:38
 msgid "Edit this account"
-msgstr "Změnit tento účet"
+msgstr "Upravit tento účet"
 
 #: templates/accounts/dashboard/account_form.html:51
 msgid "Initial transaction"
-msgstr ""
+msgstr "Počáteční transakce"
 
 #: templates/accounts/dashboard/account_form.html:58
 msgid "Restrictions"
-msgstr ""
+msgstr "omezení"
 
 #: templates/accounts/dashboard/account_form.html:59
 msgid "Restrict WHEN the account can be used"
@@ -437,11 +438,11 @@ msgstr "zrušit"
 #: templates/accounts/dashboard/account_freeze.html:7
 #, python-format
 msgid "Freeze account %(id)s"
-msgstr ""
+msgstr "Zmrazit účet %(id)s"
 
 #: templates/accounts/dashboard/account_freeze.html:28
 msgid "Freeze account?"
-msgstr ""
+msgstr "Zmrazit účet ?"
 
 #: templates/accounts/dashboard/account_list.html:26
 msgid "Create a new "
@@ -457,128 +458,131 @@ msgstr "Hledat"
 #: templates/accounts/dashboard/account_list.html:41
 #: templates/accounts/dashboard/transfer_list.html:35
 msgid "reset"
-msgstr ""
+msgstr "obnovit"
 
 #: templates/accounts/dashboard/account_list.html:58
 msgid "Num transactions"
-msgstr ""
+msgstr "Počet transakcí"
 
 #: templates/accounts/dashboard/account_list.html:59
 #: templates/accounts/dashboard/transfer_list.html:53
 msgid "Date created"
-msgstr ""
+msgstr "Datum vytvořeno"
 
 #: templates/accounts/dashboard/account_list.html:97
 msgid "No results found."
-msgstr ""
+msgstr "žádné výsledky nenalezeny"
 
 #: templates/accounts/dashboard/account_thaw.html:7
 #: templates/accounts/dashboard/account_thaw.html:20
 msgid "Thaw account"
-msgstr ""
+msgstr "Rozmrazit účet"
 
 #: templates/accounts/dashboard/account_thaw.html:24
 msgid "Thaw account?"
-msgstr ""
+msgstr "Rozmrazit účet ?"
 
 #: templates/accounts/dashboard/account_top_up.html:24
 msgid "Top up"
-msgstr ""
+msgstr "Dobít"
 
 #: templates/accounts/dashboard/account_top_up.html:28
 msgid "Top up account?"
-msgstr ""
+msgstr "Dobít účet ?"
 
 #: templates/accounts/dashboard/account_top_up.html:36
 #: templates/accounts/dashboard/account_withdraw.html:39
 msgid "Transaction"
-msgstr ""
+msgstr "Transakce "
 
 #: templates/accounts/dashboard/account_top_up.html:45
 msgid "This account cannot be topped-up."
-msgstr ""
+msgstr "Tento účet nemůže být dobit"
 
 #: templates/accounts/dashboard/account_withdraw.html:29
 msgid "Withdraw funds from account?"
-msgstr ""
+msgstr "Vybrat hotovost z účtu ?"
 
 #: templates/accounts/dashboard/account_withdraw.html:48
 msgid "This account's funds cannot be withdrawn."
-msgstr ""
+msgstr "Hotovost tohoto účtu nemůže být vybrána"
 
 #: templates/accounts/dashboard/partials/account_detail.html:24
 #: templates/accounts/dashboard/reports/deferred_income.html:38
 msgid "Account type"
-msgstr ""
+msgstr "Typ účtu"
 
 #: templates/accounts/dashboard/partials/account_detail.html:32
 msgid "Credit limit"
-msgstr ""
+msgstr "Limit kreditů"
 
 #: templates/accounts/dashboard/partials/account_detail.html:35
 msgid "No limit"
-msgstr ""
+msgstr "Žádný limit"
 
 #: templates/accounts/dashboard/partials/account_detail.html:55
 msgid "Primary user"
-msgstr ""
+msgstr "Primární uživatel"
 
 #: templates/accounts/dashboard/partials/account_detail.html:62
 msgid "Num secondary users"
-msgstr ""
+msgstr "Počet sekundárních uživatelů"
 
 #: templates/accounts/dashboard/partials/account_detail.html:69
 msgid "Can be spent on products from range"
-msgstr ""
+msgstr "Může být použit na produkt z toho dosahu"
 
 #: templates/accounts/dashboard/reports/deferred_income.html:30
 #: templates/accounts/dashboard/reports/profit_loss.html:30
 msgid "Fetch report"
-msgstr ""
+msgstr "Aktualizovat zprávy"
 
 #: templates/accounts/dashboard/reports/deferred_income.html:34
+#, fuzzy
 msgid "Position at"
-msgstr ""
+msgstr "poloha v"
 
 #: templates/accounts/dashboard/reports/deferred_income.html:39
 msgid "Total balance"
-msgstr ""
+msgstr "Totální stav"
 
 #: templates/accounts/dashboard/reports/deferred_income.html:40
 msgid "Num accounts"
-msgstr ""
+msgstr "Počet účtů"
 
 #: templates/accounts/dashboard/reports/deferred_income.html:41
+#, fuzzy
 msgid "Expiring"
-msgstr ""
+msgstr "Vypršení platnosti"
 
 #: templates/accounts/dashboard/reports/deferred_income.html:47
 msgid "&lt; 30 days"
-msgstr ""
+msgstr "&lt; 30 dní"
 
 #: templates/accounts/dashboard/reports/deferred_income.html:48
 msgid "30 - 60 days"
-msgstr ""
+msgstr "30 - 60 dní"
 
 #: templates/accounts/dashboard/reports/deferred_income.html:49
 msgid "60 - 90 days"
-msgstr ""
+msgstr "60-9 dní"
 
 #: templates/accounts/dashboard/reports/deferred_income.html:50
 msgid "&gt; 90 days"
-msgstr ""
+msgstr "&gt; 90 dní"
 
 #: templates/accounts/dashboard/reports/deferred_income.html:51
+#, fuzzy
 msgid "No end date"
-msgstr ""
+msgstr "Žádné datum konce"
 
 #: templates/accounts/dashboard/reports/profit_loss.html:34
 msgid "Transactions between"
-msgstr ""
+msgstr "Transakce mezi"
 
 #: templates/accounts/dashboard/reports/profit_loss.html:34
 msgid "and"
-msgstr ""
+msgstr "a"
 
 #: templates/accounts/dashboard/reports/profit_loss.html:38
 msgid "INCREASES IN DEFERRED INCOME LIABILITY"
@@ -586,15 +590,15 @@ msgstr ""
 
 #: templates/accounts/dashboard/reports/profit_loss.html:41
 msgid "Sales"
-msgstr ""
+msgstr "Výprodej"
 
 #: templates/accounts/dashboard/reports/profit_loss.html:54
 msgid "Unpaid sources"
-msgstr ""
+msgstr "Nezaplacené zdroje"
 
 #: templates/accounts/dashboard/reports/profit_loss.html:67
 msgid "Refunds"
-msgstr ""
+msgstr "vrácení"
 
 #: templates/accounts/dashboard/reports/profit_loss.html:80
 #: templates/accounts/dashboard/reports/profit_loss.html:117
@@ -606,12 +610,13 @@ msgid "REDUCTIONS IN DEFERRED INCOME LIABILITY"
 msgstr ""
 
 #: templates/accounts/dashboard/reports/profit_loss.html:91
+#, fuzzy
 msgid "Redemptions"
-msgstr ""
+msgstr "Odkupy "
 
 #: templates/accounts/dashboard/reports/profit_loss.html:104
 msgid "Expired"
-msgstr ""
+msgstr "Vypršení platnosti"
 
 #: templates/accounts/dashboard/reports/profit_loss.html:125
 msgid "DIFFERENCE IN POSITION"
@@ -622,31 +627,32 @@ msgstr ""
 #: templates/accounts/dashboard/transfer_list.html:19
 #: templates/accounts/dashboard/transfer_list.html:23
 msgid "Transfers"
-msgstr ""
+msgstr "Převody"
 
 #: templates/accounts/dashboard/transfer_detail.html:35
 #: templates/accounts/dashboard/transfer_list.html:46
+#, fuzzy
 msgid "Reference"
-msgstr ""
+msgstr "Odkaz"
 
 #: templates/accounts/dashboard/transfer_detail.html:39
 #: templates/accounts/dashboard/transfer_list.html:47
 msgid "Source"
-msgstr ""
+msgstr "Zdroj"
 
 #: templates/accounts/dashboard/transfer_detail.html:43
 #: templates/accounts/dashboard/transfer_list.html:48
 msgid "Destination"
-msgstr ""
+msgstr "Cíl"
 
 #: templates/accounts/dashboard/transfer_detail.html:51
 msgid "Merchant reference"
-msgstr ""
+msgstr "Obchodní odkazy"
 
 #: templates/accounts/dashboard/transfer_list.html:50
 msgid "Order number"
-msgstr ""
+msgstr "Číslo obědnávky"
 
 #: templates/accounts/dashboard/transfer_list.html:70
 msgid "No transfers found."
-msgstr ""
+msgstr "Žádné převody nenalezeny"
