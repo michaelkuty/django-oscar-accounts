@@ -5,14 +5,24 @@ from django.db import models, migrations
 from decimal import Decimal
 import django.db.models.deletion
 from django.conf import settings
+from accounts.utils import OSCAR_INSTALLED
 
-
-class Migration(migrations.Migration):
+if OSCAR_INSTALLED:
 
     dependencies = [
         ('offer', '__first__'),
         migrations.swappable_dependency(settings.AUTH_USER_MODEL),
     ]
+else:
+
+    dependencies = [
+        migrations.swappable_dependency(settings.AUTH_USER_MODEL),
+    ]
+
+
+class Migration(migrations.Migration):
+
+    dependencies = dependencies
 
     operations = [
         migrations.CreateModel(
