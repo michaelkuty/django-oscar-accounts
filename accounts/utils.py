@@ -1,6 +1,10 @@
 
+OSCAR_INSTALLED = False
+
 try:
-    from offer.models import Range  # noqa
-    OSCAR_INSTALLED = True
+    from oscar.core.loading import get_model
+    Range = get_model("offer", "range")
+    if Range:
+        OSCAR_INSTALLED = True
 except ImportError:
-    OSCAR_INSTALLED = False
+    pass
